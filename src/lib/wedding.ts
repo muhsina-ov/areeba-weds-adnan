@@ -56,14 +56,14 @@ export const wedding = {
     },
   ],
   meta: {
-    siteUrl: "https://adeeba-weds-adnan.invitingyou.top",
+    siteUrl: "https://areeba-weds-adnan.invitingyou.top",
     title: "Areeba & Adnan - Wedding Invitation | 28 Nov 2026",
     description:
-      "Wedding invitation of Ms. Areeba Siddiqui & Mr. Adnan Moyeez Siddiqui on Saturday, 28 Nov 2026 at Bharat Marriage Lawn, Lucknow.",
+      "Wedding invitation of Areeba Siddiqui & Adnan Moyeez Siddiqui on Saturday, 28 Nov 2026 at Bharat Marriage Lawn, Lucknow.",
     ogTitle: "Areeba & Adnan - Wedding Invitation",
     ogDescription:
-      "Wedding invitation of Ms. Areeba Siddiqui & Mr. Adnan Moyeez Siddiqui on Saturday, 28 Nov 2026 at Bharat Marriage Lawn, Lucknow.",
-    ogImage: "https://adeeba-weds-adnan.invitingyou.top/wedding/og-image.jpg",
+      "Wedding invitation of Areeba Siddiqui & Adnan Moyeez Siddiqui on Saturday, 28 Nov 2026 at Bharat Marriage Lawn, Lucknow.",
+    ogImage: "https://areeba-weds-adnan.invitingyou.top/wedding/og-image.jpg",
     ogImageAlt: "Areeba & Adnan Wedding Invitation",
     ogImageType: "image/jpeg",
     ogSiteName: "InviteStory",
