@@ -17,7 +17,7 @@ export const wedding = {
     blurb: "Kind-hearted, steadfast, and ready to walk hand-in-hand towards a blessed forever.",
     photo: "/wedding/adnan.jpg",
   },
-  heroArt: "/wedding/couple.png",
+  heroArt: "/wedding/hero.jpg",
   introCover: "/wedding/cover.png",
   introVideo: "/wedding/intro-video.mp4",
   // Local wedding time (IST): Baraat begins at 7:30 PM, Rukhsati at 12:00 AM

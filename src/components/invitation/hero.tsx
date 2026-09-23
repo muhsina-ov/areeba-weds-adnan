@@ -33,20 +33,22 @@ export function Hero({ start = true }: { start?: boolean }) {
     >
       <Aurora className="opacity-40" />
 
-      {/* Couple cutout anchored to the bottom - transparent PNG, no arch, no card */}
+      {/* Ghibli-style illustration anchored to the bottom of the screen */}
       <motion.img
         src={wedding.heroArt}
-        alt="Areeba and Adnan"
-        width={640}
-        height={853}
+        alt="Illustration of Areeba and Adnan"
+        width={1024}
+        height={1536}
         style={{
           y: reduce ? 0 : artY,
           scale: reduce ? 1 : artScale,
+          maskImage: "linear-gradient(to bottom, transparent 0%, black 26%)",
+          WebkitMaskImage: "linear-gradient(to bottom, transparent 0%, black 26%)",
         }}
         initial={reduce ? {} : { opacity: 0, scale: 1.08 }}
         animate={start ? { opacity: 1, scale: 1 } : {}}
         transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }}
-        className="pointer-events-none absolute inset-x-0 bottom-0 mx-auto aspect-[3/4] w-[88%] max-w-[360px] object-contain object-bottom drop-shadow-xl"
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-[62%] w-full object-cover object-bottom"
       />
 
       <motion.div
