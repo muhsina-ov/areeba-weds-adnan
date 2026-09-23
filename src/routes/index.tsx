@@ -40,7 +40,9 @@ export const Route = createFileRoute("/")({
 });
 
 function Invitation() {
-  const [opened, setOpened] = useState(false);
+  const [opened, setOpened] = useState(
+    () => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("open")
+  );
 
   return (
     <>

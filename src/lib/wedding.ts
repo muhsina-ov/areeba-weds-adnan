@@ -17,10 +17,10 @@ export const wedding = {
     blurb: "Kind-hearted, steadfast, and ready to walk hand-in-hand towards a blessed forever.",
     photo: "/wedding/adnan.jpg",
   },
-  heroArt: "/wedding/hero.jpg",
+  heroArt: "/wedding/couple.png",
   introCover: "/wedding/cover.png",
   introVideo: "/wedding/intro-video.mp4",
-  // Local wedding time (IST): Barrat begins at 7:30 PM, Rukhsati at 12:00 MN
+  // Local wedding time (IST): Baraat begins at 7:30 PM, Rukhsati at 12:00 AM
   dateISO: "2026-11-28T19:30:00+05:30",
   endISO: "2026-11-29T00:00:00+05:30",
   dateLabel: "Saturday, 28 November 2026",
@@ -36,7 +36,7 @@ export const wedding = {
   itinerary: [
     {
       time: "7:30 PM",
-      title: "Barrat",
+      title: "Baraat",
       description: "Grand arrival of the groom and the wedding procession",
     },
     {
@@ -50,7 +50,7 @@ export const wedding = {
       description: "A lavish feast and celebratory dinner with family & friends",
     },
     {
-      time: "12:00 MN",
+      time: "12:00 AM",
       title: "Rukhsati",
       description: "Heartfelt farewell with prayers and warmest blessings",
     },
@@ -76,9 +76,9 @@ export const wedding = {
     "/wedding/areeba-adnan-dance.jpg",
     "/wedding/areeba.jpg",
     "/wedding/adnan.jpg",
-    "/wedding/areeba-adnan-candid.jpg",
-    "/wedding/areeba-adnan-outdoor.jpg",
-    "/wedding/areeba-adnan-cafe.jpg",
+    "/wedding/areeba-adnan-ring.jpg",
+    "/wedding/areeba-adnan-rings-close.jpg",
+    "/wedding/areeba-adnan-together.jpg",
   ],
   closing:
     "Your duas and presence are the blessing we wish for. Come, share this joy with us, and help us begin forever, insha'Allah.",

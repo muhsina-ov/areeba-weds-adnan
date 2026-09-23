@@ -49,7 +49,11 @@ export function Gallery() {
                     alt={`Wedding celebration photograph ${i + 1}`}
                     loading="lazy"
                     className={`w-full object-cover transition-transform duration-700 group-hover:scale-[1.06] ${
-                      isFullWidth ? "aspect-[16/11]" : "aspect-[3/4]"
+                      i === 0 || i === 5
+                        ? "aspect-[4/5] object-top"
+                        : i === 3 || i === 4
+                        ? "aspect-[4/3] object-center"
+                        : "aspect-[3/4] object-center"
                     }`}
                   />
                 <span
